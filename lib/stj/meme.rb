@@ -16,8 +16,6 @@ module STJ
     end
 
     def create(path)
-      # FileUtils.cp(image, File.join(path, output_file_name))
-      # binding.pry
       point_size = 50
       img = MiniMagick::Image.from_file(image)
       img.combine_options do |c|
@@ -30,7 +28,6 @@ module STJ
 
         c.gravity 'North'
         if first_phrase.size > 20
-          #scale down the point size
           point_size -= (first_phrase.size - 20) * 2
         end
         c.pointsize point_size.to_s
