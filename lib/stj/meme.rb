@@ -8,6 +8,11 @@ module STJ
       @image = File.join(STJ::LIB_PATH, "images", 'crying-girl-joe.jpg')
     end
 
+    def output_file_name
+      name = first_phrase.downcase.gsub(/\s+/, '_').gsub(/\W/, '')
+      "tistj_#{name}.jpg"
+    end
+
   end
 
 end

@@ -14,4 +14,8 @@ describe STJ::Meme do
     expect(STJ::Meme.new("").image).to eq(File.join(LIB_PATH, 'images', 'crying-girl-joe.jpg'))
   end
 
+  it "has an output file name" do
+    expect(STJ::Meme.new("I didn't know    how to make gems").output_file_name).to eq("tistj_i_didnt_know_how_to_make_gems.jpg")
+  end
+
 end

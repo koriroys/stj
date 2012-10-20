@@ -11,3 +11,5 @@ group :development do
   gem "jeweler"
   gem "simplecov"
 end
+
+gem "mini_magick"
