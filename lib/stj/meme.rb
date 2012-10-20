@@ -29,8 +29,10 @@ module STJ
 
         c.gravity 'North'
         if first_phrase.size > 20
-          point_size -= (first_phrase.size - 20) * 2
+          point_size -= (first_phrase.size - 20) * 1.25
         end
+        point_size = 25 if point_size < 25
+
         c.pointsize point_size.to_s
         c.stroke '#000000'
         c.draw "text 10,0 '#{first_phrase}'"
