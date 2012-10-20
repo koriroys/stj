@@ -13,3 +13,4 @@ end
 
 
 LIB_PATH = File.expand_path('../lib/stj', File.dirname(__FILE__))
+SPEC_PATH = File.expand_path(File.dirname(__FILE__))

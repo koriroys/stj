@@ -13,6 +13,10 @@ module STJ
       "tistj_#{name}.jpg"
     end
 
+    def create(path)
+      FileUtils.cp(image, File.join(path, output_file_name))
+    end
+
   end
 
 end
