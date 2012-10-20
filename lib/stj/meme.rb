@@ -1,3 +1,4 @@
+require 'stj'
 require 'mini_magick'
 
 module STJ
