@@ -9,11 +9,11 @@ describe STJ::Meme do
   end
 
   after do
-    FileUtils.rm_rf(temp_dir) if File.exists?(temp_dir)
+    # FileUtils.rm_rf(temp_dir) if File.exists?(temp_dir)
   end
 
   it "has a default bottom phrase" do
-    expect(STJ::Meme.new("").default_phrase).to eq("then i spoke to joe")
+    expect(STJ::Meme.new("").default_phrase).to eq("THEN I SPOKE TO JOE")
   end
 
   it "have a first_phrase" do
@@ -29,9 +29,9 @@ describe STJ::Meme do
   end
 
   it "generates a meme image" do
-    meme = STJ::Meme.new("a")
+    meme = STJ::Meme.new("X" * 25)
     meme.create(temp_dir)
-    expect(File.exists?(File.join(temp_dir, "tistj_a.jpg"))).to be_true
+    expect(File.exists?(File.join(temp_dir, "tistj_i_thought_i_knew_clojure.jpg"))).to be_true
     expect(FileUtils.cmp(meme.image, File.join(temp_dir, meme.output_file_name))).to be_false
   end
 

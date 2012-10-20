@@ -10,6 +10,9 @@ group :development do
   gem "bundler"
   gem "jeweler"
   gem "simplecov"
+  gem "pry"
+  gem "pry-nav"
+  gem "pry-doc"
 end
 
 gem "mini_magick"
