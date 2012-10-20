@@ -1,7 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe "Stj" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+describe STJ do
+  it "has a reference to the lib path" do
+    expect(STJ::LIB_PATH).to eq LIB_PATH
   end
 end

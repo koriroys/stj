@@ -8,5 +8,8 @@ require 'stj'
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
 RSpec.configure do |config|
-  
+
 end
+
+
+LIB_PATH = File.expand_path('../lib/stj', File.dirname(__FILE__))
