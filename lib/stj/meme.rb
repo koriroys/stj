@@ -18,7 +18,7 @@ module STJ
 
     def create(path)
       point_size = 50
-      img = MiniMagick::Image.from_file(image)
+      img = MiniMagick::Image.open(image)
       img.combine_options do |c|
         c.gravity 'South'
         c.font File.join(STJ::LIB_PATH, 'fonts', 'impact.ttf')
