@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "stj"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kori Roys", "Dayton Nolan"]
-  s.date = "2012-10-20"
+  s.date = "2012-10-21"
   s.description = "stj is a meme generator for the \"Spoke to Joe\" meme."
   s.email = "kori@koriroys.com"
   s.executables = ["stj"]
