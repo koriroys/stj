@@ -10,7 +10,7 @@ outputs:
 
 <img src="https://github.com/koriroys/stj/tree/master/lib/stj/images/tistj_i_thought_i_was_good_at_making_gems.jpg">
 
-[Rubeque](https://github.com/koriroys/stj/tree/master/lib/stj/images/tistj_i_thought_i_was_good_at_making_gems.jpg)
+[Rubeque](https://github.com/koriroys/stj/blob/master/lib/stj/images/tistj_i_thought_i_was_good_at_making_gems.jpg)
 
 to your current directory.
 
