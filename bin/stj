@@ -1,4 +1,9 @@
 #!/usr/bin/env ruby
 $: << File.expand_path(File.join(File.dirname(__FILE__), "../lib"))
 require 'stj/meme'
-STJ::Meme.new(ARGV[0]).create(Dir.pwd)
+
+if ARGV.empty?
+  puts "Usage: stj 'witty string about some knowledge you thought you had'"
+else
+  STJ::Meme.new(ARGV[0]).create(Dir.pwd)
+end
