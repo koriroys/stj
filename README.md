@@ -8,7 +8,7 @@ Stj is a gem for auto generating pictures for the 'spoke to joe' meme.
 
 outputs:
 
-<img src="https://github.com/koriroys/stj/blob/master/lib/stj/images/tistj_i_thought_i_was_good_at_making_gems.jpg">
+<img src="https://raw.github.com/koriroys/stj/master/lib/stj/images/tistj_i_thought_i_was_good_at_making_gems.jpg">
 
 to your current directory.
 
