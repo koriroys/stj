@@ -1,8 +1,18 @@
-= stj
+# Stj
 
-Description goes here.
+Stj is a gem for auto generating pictures for the 'spoke to joe' meme.
 
-== Contributing to stj
+# Usage
+
+    stj "I THOUGHT I WAS GOOD AT MAKING GEMS"
+
+outputs:
+
+[Rubeque](https://github.com/koriroys/stj/tree/master/lib/stj/images/tistj_i_thought_i_was_good_at_making_gems.jpg)
+
+to your current directory.
+
+# Contributing to stj
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
@@ -12,8 +22,7 @@ Description goes here.
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
-== Copyright
+# Copyright
 
-Copyright (c) 2012 Dayton Nolan. See LICENSE.txt for
+Copyright (c) 2012 Kori Roys. See LICENSE.txt for
 further details.
-
